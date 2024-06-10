@@ -28,73 +28,24 @@ body, html {
     object-fit: cover;
     transform: translate(-50%, -50%);
 }
-
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.bounce-in {
-    justify-content: center;
-    animation: bounceIn 1s ease-out;
-    font-family: "Arial Black", Arial, sans-serif;
-}
-
-@keyframes bounceIn {
-    0% {
-        opacity: 0;
-        transform: translateY(-100px);
-    }
-    50% {
-        opacity: 1;
-        transform: translateY(30px);
-    }
-    80% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-
-.content {
-    position: relative;
-    z-index: 1;
+.custom-button {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
     text-align: center;
-    color: white;
-}
-
-.button-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 80%;
-    max-width: 400px; /* 限制按鈕容器的最大寬度 */
-    margin: 0 auto;
-}
-
-button {
-    padding: 15px;
-    font-size: 18px;
-    color: white;
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
+    line-height: 26px; /* Align text vertically within the button */
     cursor: pointer;
-    transition: background-color 0.3s;
+    margin-left: 510px; 
+    margin-top: 500px;
+    transition: background-color 0.3s, color 0.3s;
 }
-
-button:hover {
-    background-color: #0056b3;
-}
-
-button:active {
-    background-color: #003d80;
+.custom-button:hover, .custom-button:active {
+    background-color: black;
+    color: white;
 }
 
 /* iPhone 12 特定樣式 */
