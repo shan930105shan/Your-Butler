@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP8266 Control</title>
+    <link rel="stylesheet" href="../Your Butler/css/page2.css">
+</head>
+<body>
+    <div class="background-video-container">
+        <video autoplay muted loop class="background-video">
+            <source src="../Your Butler/video/APP-Work.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="timer-container">
+        <div class="input-container">
+          <input type="number" id="minutes" placeholder="Minutes">
+          <input type="number" id="seconds" placeholder="Seconds">
+        </div>
+        
+        <div class="countdown-display" id="countdown-display"></div>
+        <button class="custom-button" onclick="startTimer()">Start Timer</button>
+      </div>
+    
+    <script src="../Your Butler/javascript/javascript.js"></script>
+</body>
+</html>
