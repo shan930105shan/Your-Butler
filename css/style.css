@@ -55,7 +55,8 @@ body, html {
         font-size: 18px;
     }
 
-    button {
+    .custom-button {
+        padding: 20px;
         font-size: 20px;
         width: 180px;
         height: 20px;
@@ -65,10 +66,10 @@ body, html {
         border: 2px solid black;
         border-radius: 25px;
         text-align: center;
-        line-height: 26px; /* Align text vertically within the button */
+        line-height: 5px; /* Align text vertically within the button */
         cursor: pointer;
-        margin-left: 50%; 
-        margin-top: 50%;
+        margin-left: 30%; 
+        margin-top: 130%;
         transition: background-color 0.3s, color 0.3s;
     }
 }
