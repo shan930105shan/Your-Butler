@@ -56,7 +56,7 @@ body, html {
     }
 
     .custom-button {
-        padding: 20px;
+       padding: 20px;
         font-size: 20px;
         width: 180px;
         height: 20px;
@@ -68,8 +68,7 @@ body, html {
         text-align: center;
         line-height: 5px; /* Align text vertically within the button */
         cursor: pointer;
-        margin-left: 30%; 
-        margin-top: 130%;
+        margin: 10px auto; /* 使用 margin: auto; 居中 */
         transition: background-color 0.3s, color 0.3s;
     }
 }
