@@ -68,7 +68,7 @@ body, html {
         text-align: center;
         line-height: 5px; /* Align text vertically within the button */
         cursor: pointer;
-        margin-left: 30%; 
+        margin-left: 25%; 
         margin-top: 130%;
         transition: background-color 0.3s, color 0.3s;
     }
